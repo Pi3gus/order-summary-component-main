@@ -8,4 +8,17 @@
 }
 body{
     font-family: 'Red Hat Display', sans-serif;
+    background-color: var(--Pale-blue);
+    
+}
+.card{
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: var(--Very-pale-blue);
+    border-radius: 14px;
+    height: 100vh;
+}
+.img-top img{
+    width: 100%;
 }
