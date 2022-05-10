@@ -19,6 +19,7 @@ body{
     align-items: center;
     height: 100vh;
     position: relative;
+    font-size: 16px;
 }
 .card{
     position: absolute;
@@ -31,4 +32,53 @@ body{
 .img-top img{
     width: 100%;
     display: block;
+}
+.text h2{
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+.text p{
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+    margin-top: 1rem;
+}
+.text{
+    margin: 1rem 0;
+}
+.content{
+    padding: 1em;
+}
+.plan{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info p:nth-of-type(1){
+    font-weight: 900;
+    color: var(--Dark-blue);
+}
+.info p:nth-of-type(2){
+    font-weight: 500;
+    color: var(--Desaturated-blue);
+}
+.plan a{
+    font-weight: 700;
+    color: var(--Bright-blue);
+}
+.plan a:hover{
+    color: var(--Desaturated-blue);
+}
+.button{
+    width: 100%;
+    background-color: var(--Bright-blue);
+    padding: 0.8em;
+    color: var(--Very-pale-blue);
+    border-radius: 12px;
+    font-weight: 700;
+    margin: 1rem 0;
+}
+.button-cancel{
+    color: var(--Desaturated-blue);
+    font-weight: 500;
+    padding: 1em;
 }
